@@ -22,7 +22,8 @@ import markdown
 if __name__ == "__main__":
     # check if the correct number of arguments have been passed
     if len(sys.argv) < 3:
-        print("Usage: ./markdown2html.py README.md README.html", file=sys.stderr)
+        print("Usage: ./markdown2html.py README.md README.html",
+              file=sys.stderr)
         exit(1)
 
     # Assign arguments to file names
