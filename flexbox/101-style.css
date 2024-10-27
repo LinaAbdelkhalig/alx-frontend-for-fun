@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    justify-content: center; /* Center the boxes horizontally */
+    align-items: center;     /* Center the boxes vertically */
+}
+
+.box {
+    flex: 1; /* Allow boxes to scale based on available space */
+    text-align: center;
+    font-size: 2em;
+    color: white;
+}
+
+/* Custom colors for each box */
+.box1 {
+    background-color: #4CAF50; /* Green */
+    flex: 0 0 50px;            /* Fixed width */
+}
+
+.box2 {
+    background-color: #2196F3; /* Blue */
+    flex: 0 0 100px;           /* Fixed width */
+}
+
+.box3 {
+    background-color: #333;    /* Dark Gray */
+    flex: 0 0 200px;           /* Fixed width */
+}
+
+.box4 {
+    background-color: #9C27B0; /* Purple */
+    flex: 0 0 100px;           /* Fixed width */
+}
+
+.box5 {
+    background-color: #FF5722; /* Orange */
+    flex: 0 0 50px;            /* Fixed width */
+}
