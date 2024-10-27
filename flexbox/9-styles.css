@@ -391,7 +391,7 @@ ul.row {
     padding: 0;
     list-style: none;
     text-align: center;
-    display: felx;
+    display: flex;
 }
 
 .nav .nav-item {

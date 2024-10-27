@@ -391,7 +391,7 @@ ul.row {
     padding: 0;
     list-style: none;
     text-align: center;
-    display: felx;
+    display: flex;
 }
 
 .nav .nav-item {
@@ -727,7 +727,7 @@ ul.row {
 }
 
 .hero-article::before {
-    content: empty;
+    content: "";
     background: rgba(0, 0, 0, 0.8);
     position: absolute;
     top: 0;
